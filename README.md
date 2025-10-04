@@ -31,6 +31,12 @@ Key tasks included:
 
 ### **Results Description**
 
+- **final_paper.pdf** – Final project report summarizing methodology, forecasting, vehicle scheduling, container optimization, and robustness analysis.
+- **daily_freight_volume.xlsx** – Predicted total freight volume per line per day.
+- **freight_10min_granularity.xlsx** – Predicted freight volume per line at 10-minute intervals.
+- **vehicle_scheduling.xlsx** – Vehicle allocation and dispatch timing based on forecasted freight volume. 
+- **container_vehicle_scheduling.xlsx** – Vehicle scheduling plan using standard containers. 
+
 ## How to Run
 
 1. Ensure **Python 3.x** is installed.
