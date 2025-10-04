@@ -1,5 +1,5 @@
 # intelligent-logistics-optimization
-MathorCup 2025 project: Hybrid forecasting and multi-objective optimization for urban logistics
+**MathorCup 2025 project: Hybrid forecasting and multi-objective optimization for urban logistics**
 
 ## Problem Summary
 
@@ -13,3 +13,23 @@ Key tasks included:
 4. **Robustness Analysis:** Evaluate how forecast deviations affect the scheduling optimization results.
 
 > The full problem description is available in `problem_description/problem_description.pdf`.
+
+## Repository Structure
+
+- problem_description/ # Competition problem statement PDF
+- data/ # Original datasets provided by the competition
+- code/ # Scripts for forecasting and optimization
+- results/ # Generated output Excel files & Final paper
+
+### **Data Description**
+
+- **fleet_routes_info.xlsx** – Contains route information, fleet assignment, transit duration, and cost data (own fleet and external carriers).  
+- **packages_10min_granularity.xlsx** – Forecasted package volumes per route at 10-minute intervals.  
+- **daily_packages.xlsx** – Daily total package volume per route.  
+- **combinable_routes.xlsx** – Defines which stations/routes can be merged for dispatch ("串点").  
+- **fleet_info.xlsx** – Number of vehicles owned by each fleet team.
+
+### How to Run
+
+1. Ensure **Python 3.x** is installed.
+2. Install required packages.
